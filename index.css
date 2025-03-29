@@ -130,19 +130,20 @@
     .search input:focus {
       width: 200px;
     }
+    .right-side{
+      display: none !important;
+    }
+  
+    .nav-links-ctn{
+      display: none;
+    }
+  
+    .box-ctn{
+      justify-content: center;
+    }
   }
 
-  .right-side{
-    display: none !important;
-  }
-
-  .nav-links-ctn{
-    display: none;
-  }
-
-  .box-ctn{
-    justify-content: center;
-  }
+  
   
   @media (max-width: 576px) {
     .navbar {
