@@ -1,43 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
+    <title>HTFood</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <header>My Profile</header>
-    <nav>
+
+    <!-- Navbar -->
+    <div class="nav-ctn">
+        <div class="navbar">
+            <div class="logo">
+                <h4>HTFood</h4>
+            </div>
+            <div class="right-side">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="cart">
+                    <img src="cart.svg" alt="Shopping Cart">
+                </div>
+                <div class="person">
+                    <img src="avatar.svg" alt="User Avatar">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav-links-ctn">
         <ul>
-            <li>About Me</li>
-            <li>Hobbies</li>
-            <li>Contact</li>
+            <li>All Categories</li>
+            <li>Grains and Rice</li>
+            <li>Pasta and Noodles</li>
+            <li>Cooking Oil</li>
+            <li>Canned Foods</li>
+            <li>Seasonings</li>
         </ul>
-    </nav>
-    <section>
-        <img src="https://cdn.pixabay.com/photo/2024/06/14/12/15/developer-8829735_1280.jpg " alt="placeholder image">
-        <p>My name is Damilola Olawoore, a graduate of Industrial and Production Engineering from Federal University of Technology, Akure. 
-            I am currently working serving my country in Benue state.
-            I am a passionate software engineer with a strong background in programming and problem-solving.
-            I am also a student of the 3mtt training scheme who is training for full stack development.
-        </p>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-ctn">
+        <div class="hero">
+            <div class="hero-text">
+                <h3>Fresh Groceries Delivered to Your Doorstep</h3>
+                <p>Shop for your favorite groceries and essential food items with the best prices and quality.</p>
+                <button class="btn">Shop Now</button>
+            </div>
+            <div class="hero-img">
+                <img src="hero.png" alt="Fresh groceries">
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <div class="category-ctn">
+        <h3>Shop by Category</h3>
+        <div class="box-ctn">
+            <div class="category-box">
+                <div class="category-box-img">
+                    <img src="rice.svg" alt="Rice & Grains">
+                </div>
+                <h5>Rice & Grains</h5>
+            </div>
+            <div class="category-box pasta">
+                <div class="category-box-img">
+                    <img src="pasta.svg" alt="Pasta">
+                </div>
+                <h5>Pasta</h5>
+            </div>
+            <div class="category-box oil">
+                <div class="category-box-img">
+                    <img src="cooking_oil.svg" alt="Cooking Oil">
+                </div>
+                <h5>Cooking Oil</h5>
+            </div>
+            <div class="category-box paste">
+                <div class="category-box-img">
+                    <img src="tomato.svg" alt="Tomato Paste">
+                </div>
+                <h5>Tomato Paste</h5>
+            </div>
+            <div class="category-box noodles">
+                <div class="category-box-img">
+                    <img src="noodles.svg" alt="Instant Noodles">
+                </div>
+                <h5>Instant Noodles</h5>
+            </div>
+            <div class="category-box beans">
+                <div class="category-box-img">
+                    <img src="beans.svg" alt="Beans">
+                </div>
+                <h5>Beans</h5>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <h2>Why Are We Different?</h2>
+        <div class="difference-ctn">
+            <div class="difference differnce-ctn-1">
+                <div class="differnce-ctn-1-img">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/30/15/00/apples-1872997_1280.jpg" alt="Differnce">
+                </div>
+                <div class="differnce-ctn-1-text">
+                    <h4>100% Fresh</h4>
+                    <p>Our products are sourced from the best suppliers, ensuring that you get the freshest and highest
+                        quality products.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="difference differnce-ctn-2">
+                <div class="differnce-ctn-2-img">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/31/08/50/coins-1015125_1280.jpg" alt="Differnce">
+                </div>
+                <div class="differnce-ctn-2-text">
+                    <h4>Low Cost</h4>
+                    <p>Our products are sourced from the wholesale suppliers, ensuring that you get the cost is minimal.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="difference differnce-ctn-3">
+                <div class="differnce-ctn-3-img">
+                    <img src="https://cdn.pixabay.com/photo/2022/01/28/12/17/delivery-6974508_1280.jpg" alt="Differnce">
+                </div>
+                <div class="differnce-ctn-2-text">
+                    <h4>Fast Delivery</h4>
+                    <p>Our Courier service provider are always at standby to ensure timely delivery of your orders.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <h3>List of Hobbies</h3>
-        <ol>
-            <li>Coding</li>
-            <li>Watching Movies</li>
-            <li>Eating</li>
-        </ol>
-    </section>
-    <footer>
-        <h3>Contact</h3>
-        <ul>
-            <li>Email: damilola@example.com</li>
-            <li>Twitter: Ht__code</li>
-            <li>Address: Benue State</li>
-        </ul>
-        <p>Copyright © 2025 Damilola Olawoore</p>
+
+    <footer class="container">
+        <div class="footer-ctn">
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p>Email: damilolaolawoore03@gmail.com</p>
+                <p>Phone: +234 704 609 7860</p>
+                <p>Address: Benue State currently</p>
+            </div>
+            <div class="social">
+                <h4>Follow Us</h4>
+                <ul>
+                    <!-- <li><a href="#"><img src="facebook.svg" alt="Facebook"></a></li> -->
+                    <li><a href="https://x.com/Ht__code"><img src="twitter.svg" alt="Twitter">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/Htcode"><img src="linkedin.svg" alt="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 HTFood by Ht-code/>. All rights reserved.</p>
+        </div>
     </footer>
 </body>
+
 </html>
